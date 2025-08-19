@@ -1,0 +1,6 @@
+framework module Pods_LullabAITests {
+  umbrella header "Pods-LullabAITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

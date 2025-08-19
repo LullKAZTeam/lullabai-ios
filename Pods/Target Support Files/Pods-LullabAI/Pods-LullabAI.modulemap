@@ -1,0 +1,6 @@
+framework module Pods_LullabAI {
+  umbrella header "Pods-LullabAI-umbrella.h"
+
+  export *
+  module * { export * }
+}

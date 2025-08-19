@@ -1,0 +1,1249 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A4275110CD1797C972FA056 /* Pods_LullabAITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C9035EC166339BBFDF3280 /* Pods_LullabAITests.framework */; };
+		E39728003465027600828281 /* Pods_LullabAI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E448EF1CA39966D178ECB13E /* Pods_LullabAI.framework */; };
+		F076CB843BCE21ACF82224F3 /* Pods_LullabAI_LullabAIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050F76A8979ADF71EB648BC1 /* Pods_LullabAI_LullabAIUITests.framework */; };
+		F42CE0262D508FC6001CD828 /* CategoryHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42CE0252D508FBC001CD828 /* CategoryHandler.swift */; };
+		F42CE02A2D509E73001CD828 /* PlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42CE0292D509E73001CD828 /* PlayerVC.swift */; };
+		F443E15F2D4CA9E5004D3960 /* VoiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F443E15E2D4CA9E5004D3960 /* VoiceHandler.swift */; };
+		F445AB5D2D5FA0CB006CA76F /* DeleteAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445AB5C2D5FA0CB006CA76F /* DeleteAccountVC.swift */; };
+		F44B78992D3AC28A009A0867 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44B78982D3AC28A009A0867 /* HistoryVC.swift */; };
+		F44B789B2D3AC29A009A0867 /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44B789A2D3AC29A009A0867 /* History.storyboard */; };
+		F450AAA72D4C94F00007B1CE /* CreateVoiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450AAA62D4C94F00007B1CE /* CreateVoiceVC.swift */; };
+		F467984E2D3A61850013B80A /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F46798222D3A61850013B80A /* Inter-Black.ttf */; };
+		F467984F2D3A61850013B80A /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F46798232D3A61850013B80A /* Inter-Bold.ttf */; };
+		F46798502D3A61850013B80A /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F46798242D3A61850013B80A /* Inter-ExtraBold.ttf */; };
+		F46798512D3A61850013B80A /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F46798252D3A61850013B80A /* Inter-ExtraLight.ttf */; };
+		F46798522D3A61850013B80A /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F46798262D3A61850013B80A /* Inter-Light.ttf */; };
+		F46798532D3A61850013B80A /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F46798272D3A61850013B80A /* Inter-Medium.ttf */; };
+		F46798542D3A61850013B80A /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F46798282D3A61850013B80A /* Inter-Regular.ttf */; };
+		F46798552D3A61850013B80A /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F46798292D3A61850013B80A /* Inter-SemiBold.ttf */; };
+		F46798562D3A61850013B80A /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F467982A2D3A61850013B80A /* Inter-Thin.ttf */; };
+		F46798572D3A61850013B80A /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F467982C2D3A61850013B80A /* Nunito-Black.ttf */; };
+		F46798582D3A61850013B80A /* Nunito-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F467982D2D3A61850013B80A /* Nunito-BlackItalic.ttf */; };
+		F46798592D3A61850013B80A /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F467982E2D3A61850013B80A /* Nunito-Bold.ttf */; };
+		F467985A2D3A61850013B80A /* Nunito-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F467982F2D3A61850013B80A /* Nunito-BoldItalic.ttf */; };
+		F467985B2D3A61850013B80A /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F46798302D3A61850013B80A /* Nunito-ExtraBold.ttf */; };
+		F467985C2D3A61850013B80A /* Nunito-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F46798312D3A61850013B80A /* Nunito-ExtraBoldItalic.ttf */; };
+		F467985D2D3A61850013B80A /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F46798322D3A61850013B80A /* Nunito-ExtraLight.ttf */; };
+		F467985E2D3A61850013B80A /* Nunito-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F46798332D3A61850013B80A /* Nunito-ExtraLightItalic.ttf */; };
+		F467985F2D3A61850013B80A /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F46798342D3A61850013B80A /* Nunito-Italic.ttf */; };
+		F46798602D3A61850013B80A /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F46798352D3A61850013B80A /* Nunito-Light.ttf */; };
+		F46798612D3A61850013B80A /* Nunito-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F46798362D3A61850013B80A /* Nunito-LightItalic.ttf */; };
+		F46798622D3A61850013B80A /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F46798372D3A61850013B80A /* Nunito-Medium.ttf */; };
+		F46798632D3A61850013B80A /* Nunito-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F46798382D3A61850013B80A /* Nunito-MediumItalic.ttf */; };
+		F46798642D3A61850013B80A /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F46798392D3A61850013B80A /* Nunito-Regular.ttf */; };
+		F46798652D3A61850013B80A /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F467983A2D3A61850013B80A /* Nunito-SemiBold.ttf */; };
+		F46798662D3A61850013B80A /* Nunito-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F467983B2D3A61850013B80A /* Nunito-SemiBoldItalic.ttf */; };
+		F46798672D3A61850013B80A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F467983D2D3A61850013B80A /* Assets.xcassets */; };
+		F46798682D3A61850013B80A /* CustomFoodTabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = F46798432D3A61850013B80A /* CustomFoodTabBar.xib */; };
+		F46798692D3A61850013B80A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46798462D3A61850013B80A /* Home.storyboard */; };
+		F467986A2D3A61850013B80A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46798482D3A61850013B80A /* LaunchScreen.storyboard */; };
+		F467986B2D3A61850013B80A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F467984A2D3A61850013B80A /* Main.storyboard */; };
+		F467986D2D3A61850013B80A /* HomeCategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F467980D2D3A61850013B80A /* HomeCategoriesVC.swift */; };
+		F467986E2D3A61850013B80A /* HomeDefaultVoiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F467980E2D3A61850013B80A /* HomeDefaultVoiceVC.swift */; };
+		F467986F2D3A61850013B80A /* HomeNewStoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F467980F2D3A61850013B80A /* HomeNewStoryVC.swift */; };
+		F46798702D3A61850013B80A /* HomeSweetLullabiesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46798102D3A61850013B80A /* HomeSweetLullabiesVC.swift */; };
+		F46798712D3A61850013B80A /* HomeTopPoemsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46798112D3A61850013B80A /* HomeTopPoemsVC.swift */; };
+		F46798722D3A61850013B80A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46798122D3A61850013B80A /* HomeVC.swift */; };
+		F46798732D3A61850013B80A /* CreateNewPassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46798142D3A61850013B80A /* CreateNewPassVC.swift */; };
+		F46798742D3A61850013B80A /* ForgotPassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46798152D3A61850013B80A /* ForgotPassVC.swift */; };
+		F46798752D3A61850013B80A /* IntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46798162D3A61850013B80A /* IntroVC.swift */; };
+		F46798762D3A61850013B80A /* OtpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46798172D3A61850013B80A /* OtpVC.swift */; };
+		F46798772D3A61850013B80A /* SigninupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46798182D3A61850013B80A /* SigninupVC.swift */; };
+		F46798782D3A61850013B80A /* SigninVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46798192D3A61850013B80A /* SigninVC.swift */; };
+		F46798792D3A61850013B80A /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F467981B2D3A61850013B80A /* TabBarVC.swift */; };
+		F467987A2D3A61850013B80A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F467981D2D3A61850013B80A /* AppDelegate.swift */; };
+		F467987C2D3A61850013B80A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F467981F2D3A61850013B80A /* ViewController.swift */; };
+		F467987D2D3A61850013B80A /* UIView_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F467983F2D3A61850013B80A /* UIView_Extension.swift */; };
+		F467987E2D3A61850013B80A /* CustomFoodTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46798422D3A61850013B80A /* CustomFoodTabBar.swift */; };
+		F46798812D3A61940013B80A /* LullabAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F467987F2D3A61940013B80A /* LullabAITests.swift */; };
+		F46798852D3A619C0013B80A /* LullabAIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46798822D3A619C0013B80A /* LullabAIUITests.swift */; };
+		F46798862D3A619C0013B80A /* LullabAIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46798832D3A619C0013B80A /* LullabAIUITestsLaunchTests.swift */; };
+		F46798892D3A66670013B80A /* ExploreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46798882D3A66670013B80A /* ExploreVC.swift */; };
+		F467988B2D3A71520013B80A /* UIString_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F467988A2D3A71500013B80A /* UIString_Extension.swift */; };
+		F46798922D3AB0C50013B80A /* UIColor_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46798912D3AB0C50013B80A /* UIColor_Extensions.swift */; };
+		F46798942D3AB2640013B80A /* Explore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46798932D3AB2640013B80A /* Explore.storyboard */; };
+		F47CC2A92D4748F1006ABD20 /* SaveRecordingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47CC2A82D4748F1006ABD20 /* SaveRecordingVC.swift */; };
+		F47CC2AC2D474F96006ABD20 /* CommonFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47CC2AB2D474F96006ABD20 /* CommonFunctions.swift */; };
+		F482F57E2D421FEC004623F6 /* RecordTempVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F482F57D2D421FEC004623F6 /* RecordTempVC.swift */; };
+		F48EE11D2D3EB5A10094064F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48EE11C2D3EB5A10094064F /* Constants.swift */; };
+		F48EE11F2D3F82DE0094064F /* YourDownloadsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48EE11E2D3F82DE0094064F /* YourDownloadsVC.swift */; };
+		F4A00FAB2D3EA735000BCAF0 /* SaveCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A00FAA2D3EA735000BCAF0 /* SaveCollectionVC.swift */; };
+		F4AE57292D3E26F70039A104 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4AE57282D3E26F70039A104 /* Profile.storyboard */; };
+		F4AE572C2D3E27170039A104 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE572B2D3E27170039A104 /* ProfileVC.swift */; };
+		F4B8E09D2D5DC3AF001860D1 /* YourVoiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B8E09C2D5DC3AF001860D1 /* YourVoiceVC.swift */; };
+		F4BD38C42D436D1F004B7F01 /* UIViewController_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BD38C32D436D1F004B7F01 /* UIViewController_Extensions.swift */; };
+		F4BD38CA2D436E94004B7F01 /* ApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BD38C82D436E94004B7F01 /* ApiHandler.swift */; };
+		F4DE4E382D40CEDA00FA1341 /* ManageProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DE4E372D40CEDA00FA1341 /* ManageProfileVC.swift */; };
+		F4DE4E3A2D40D0C800FA1341 /* PrivacyPolicyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DE4E392D40D0C800FA1341 /* PrivacyPolicyVC.swift */; };
+		F4DE4E3C2D40D0F400FA1341 /* TermsConditionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DE4E3B2D40D0F400FA1341 /* TermsConditionsVC.swift */; };
+		F4DE4E3F2D40D3F500FA1341 /* AddVoiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DE4E3E2D40D3F500FA1341 /* AddVoiceVC.swift */; };
+		F4DE4E412D40D40C00FA1341 /* RecordVoiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DE4E402D40D40C00FA1341 /* RecordVoiceVC.swift */; };
+		F4E4C32A2D8B32BF00801A52 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F4E4C3292D8B32BF00801A52 /* PrivacyInfo.xcprivacy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F46977AC2D33D3C600404D28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F469778D2D33D3C400404D28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F46977942D33D3C400404D28;
+			remoteInfo = LullabAI;
+		};
+		F46977B62D33D3C600404D28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F469778D2D33D3C400404D28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F46977942D33D3C400404D28;
+			remoteInfo = LullabAI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		050F76A8979ADF71EB648BC1 /* Pods_LullabAI_LullabAIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LullabAI_LullabAIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD28417584F7EC7E9B705AE /* Pods-LullabAI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LullabAI.debug.xcconfig"; path = "Target Support Files/Pods-LullabAI/Pods-LullabAI.debug.xcconfig"; sourceTree = "<group>"; };
+		825149D08879B2AEC70C5B68 /* Pods-LullabAI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LullabAI.release.xcconfig"; path = "Target Support Files/Pods-LullabAI/Pods-LullabAI.release.xcconfig"; sourceTree = "<group>"; };
+		96FB5A5DC65DDFD355932563 /* Pods-LullabAITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LullabAITests.release.xcconfig"; path = "Target Support Files/Pods-LullabAITests/Pods-LullabAITests.release.xcconfig"; sourceTree = "<group>"; };
+		99C9035EC166339BBFDF3280 /* Pods_LullabAITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LullabAITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6093D13D94043B634E9805 /* Pods-LullabAI-LullabAIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LullabAI-LullabAIUITests.release.xcconfig"; path = "Target Support Files/Pods-LullabAI-LullabAIUITests/Pods-LullabAI-LullabAIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C464FA46BE528774F84A2D22 /* Pods-LullabAI-LullabAIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LullabAI-LullabAIUITests.debug.xcconfig"; path = "Target Support Files/Pods-LullabAI-LullabAIUITests/Pods-LullabAI-LullabAIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDC2A39DD46D484C6B83095E /* Pods-LullabAITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LullabAITests.debug.xcconfig"; path = "Target Support Files/Pods-LullabAITests/Pods-LullabAITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E448EF1CA39966D178ECB13E /* Pods_LullabAI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LullabAI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42CE0252D508FBC001CD828 /* CategoryHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHandler.swift; sourceTree = "<group>"; };
+		F42CE0292D509E73001CD828 /* PlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerVC.swift; sourceTree = "<group>"; };
+		F443E15E2D4CA9E5004D3960 /* VoiceHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceHandler.swift; sourceTree = "<group>"; };
+		F445AB5C2D5FA0CB006CA76F /* DeleteAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAccountVC.swift; sourceTree = "<group>"; };
+		F44B78982D3AC28A009A0867 /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		F44B789A2D3AC29A009A0867 /* History.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = History.storyboard; sourceTree = "<group>"; };
+		F44E7DF72D8AB74D00BF12D7 /* LullabAI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LullabAI.entitlements; sourceTree = "<group>"; };
+		F450AAA62D4C94F00007B1CE /* CreateVoiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateVoiceVC.swift; sourceTree = "<group>"; };
+		F467980D2D3A61850013B80A /* HomeCategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCategoriesVC.swift; sourceTree = "<group>"; };
+		F467980E2D3A61850013B80A /* HomeDefaultVoiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDefaultVoiceVC.swift; sourceTree = "<group>"; };
+		F467980F2D3A61850013B80A /* HomeNewStoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNewStoryVC.swift; sourceTree = "<group>"; };
+		F46798102D3A61850013B80A /* HomeSweetLullabiesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSweetLullabiesVC.swift; sourceTree = "<group>"; };
+		F46798112D3A61850013B80A /* HomeTopPoemsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTopPoemsVC.swift; sourceTree = "<group>"; };
+		F46798122D3A61850013B80A /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		F46798142D3A61850013B80A /* CreateNewPassVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewPassVC.swift; sourceTree = "<group>"; };
+		F46798152D3A61850013B80A /* ForgotPassVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassVC.swift; sourceTree = "<group>"; };
+		F46798162D3A61850013B80A /* IntroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroVC.swift; sourceTree = "<group>"; };
+		F46798172D3A61850013B80A /* OtpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpVC.swift; sourceTree = "<group>"; };
+		F46798182D3A61850013B80A /* SigninupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninupVC.swift; sourceTree = "<group>"; };
+		F46798192D3A61850013B80A /* SigninVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninVC.swift; sourceTree = "<group>"; };
+		F467981B2D3A61850013B80A /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		F467981D2D3A61850013B80A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F467981F2D3A61850013B80A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F46798222D3A61850013B80A /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		F46798232D3A61850013B80A /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		F46798242D3A61850013B80A /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		F46798252D3A61850013B80A /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		F46798262D3A61850013B80A /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		F46798272D3A61850013B80A /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		F46798282D3A61850013B80A /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		F46798292D3A61850013B80A /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		F467982A2D3A61850013B80A /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
+		F467982C2D3A61850013B80A /* Nunito-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Black.ttf"; sourceTree = "<group>"; };
+		F467982D2D3A61850013B80A /* Nunito-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-BlackItalic.ttf"; sourceTree = "<group>"; };
+		F467982E2D3A61850013B80A /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		F467982F2D3A61850013B80A /* Nunito-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-BoldItalic.ttf"; sourceTree = "<group>"; };
+		F46798302D3A61850013B80A /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
+		F46798312D3A61850013B80A /* Nunito-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		F46798322D3A61850013B80A /* Nunito-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLight.ttf"; sourceTree = "<group>"; };
+		F46798332D3A61850013B80A /* Nunito-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		F46798342D3A61850013B80A /* Nunito-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Italic.ttf"; sourceTree = "<group>"; };
+		F46798352D3A61850013B80A /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
+		F46798362D3A61850013B80A /* Nunito-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-LightItalic.ttf"; sourceTree = "<group>"; };
+		F46798372D3A61850013B80A /* Nunito-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Medium.ttf"; sourceTree = "<group>"; };
+		F46798382D3A61850013B80A /* Nunito-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-MediumItalic.ttf"; sourceTree = "<group>"; };
+		F46798392D3A61850013B80A /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		F467983A2D3A61850013B80A /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		F467983B2D3A61850013B80A /* Nunito-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		F467983D2D3A61850013B80A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F467983F2D3A61850013B80A /* UIView_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView_Extension.swift; sourceTree = "<group>"; };
+		F46798422D3A61850013B80A /* CustomFoodTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFoodTabBar.swift; sourceTree = "<group>"; };
+		F46798432D3A61850013B80A /* CustomFoodTabBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomFoodTabBar.xib; sourceTree = "<group>"; };
+		F46798462D3A61850013B80A /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		F46798472D3A61850013B80A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F46798492D3A61850013B80A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F467984C2D3A61850013B80A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F467987F2D3A61940013B80A /* LullabAITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LullabAITests.swift; sourceTree = "<group>"; };
+		F46798822D3A619C0013B80A /* LullabAIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LullabAIUITests.swift; sourceTree = "<group>"; };
+		F46798832D3A619C0013B80A /* LullabAIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LullabAIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F46798882D3A66670013B80A /* ExploreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreVC.swift; sourceTree = "<group>"; };
+		F467988A2D3A71500013B80A /* UIString_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIString_Extension.swift; sourceTree = "<group>"; };
+		F46798912D3AB0C50013B80A /* UIColor_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor_Extensions.swift; sourceTree = "<group>"; };
+		F46798932D3AB2640013B80A /* Explore.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Explore.storyboard; sourceTree = "<group>"; };
+		F46977952D33D3C400404D28 /* LullabAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LullabAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46977AB2D33D3C600404D28 /* LullabAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LullabAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46977B52D33D3C600404D28 /* LullabAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LullabAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F47CC2A82D4748F1006ABD20 /* SaveRecordingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveRecordingVC.swift; sourceTree = "<group>"; };
+		F47CC2AB2D474F96006ABD20 /* CommonFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunctions.swift; sourceTree = "<group>"; };
+		F482F57D2D421FEC004623F6 /* RecordTempVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTempVC.swift; sourceTree = "<group>"; };
+		F48EE11C2D3EB5A10094064F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F48EE11E2D3F82DE0094064F /* YourDownloadsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourDownloadsVC.swift; sourceTree = "<group>"; };
+		F4A00FAA2D3EA735000BCAF0 /* SaveCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveCollectionVC.swift; sourceTree = "<group>"; };
+		F4AE57282D3E26F70039A104 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		F4AE572B2D3E27170039A104 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		F4B8E09C2D5DC3AF001860D1 /* YourVoiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourVoiceVC.swift; sourceTree = "<group>"; };
+		F4BD38C32D436D1F004B7F01 /* UIViewController_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController_Extensions.swift; sourceTree = "<group>"; };
+		F4BD38C82D436E94004B7F01 /* ApiHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHandler.swift; sourceTree = "<group>"; };
+		F4DE4E372D40CEDA00FA1341 /* ManageProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageProfileVC.swift; sourceTree = "<group>"; };
+		F4DE4E392D40D0C800FA1341 /* PrivacyPolicyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyVC.swift; sourceTree = "<group>"; };
+		F4DE4E3B2D40D0F400FA1341 /* TermsConditionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsConditionsVC.swift; sourceTree = "<group>"; };
+		F4DE4E3E2D40D3F500FA1341 /* AddVoiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVoiceVC.swift; sourceTree = "<group>"; };
+		F4DE4E402D40D40C00FA1341 /* RecordVoiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordVoiceVC.swift; sourceTree = "<group>"; };
+		F4E4C3292D8B32BF00801A52 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F46977922D33D3C400404D28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39728003465027600828281 /* Pods_LullabAI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46977A82D33D3C600404D28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4275110CD1797C972FA056 /* Pods_LullabAITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46977B22D33D3C600404D28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F076CB843BCE21ACF82224F3 /* Pods_LullabAI_LullabAIUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2206259B2C0DE962143166AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E448EF1CA39966D178ECB13E /* Pods_LullabAI.framework */,
+				050F76A8979ADF71EB648BC1 /* Pods_LullabAI_LullabAIUITests.framework */,
+				99C9035EC166339BBFDF3280 /* Pods_LullabAITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3359644E75268837DEF0B4BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FD28417584F7EC7E9B705AE /* Pods-LullabAI.debug.xcconfig */,
+				825149D08879B2AEC70C5B68 /* Pods-LullabAI.release.xcconfig */,
+				C464FA46BE528774F84A2D22 /* Pods-LullabAI-LullabAIUITests.debug.xcconfig */,
+				AF6093D13D94043B634E9805 /* Pods-LullabAI-LullabAIUITests.release.xcconfig */,
+				CDC2A39DD46D484C6B83095E /* Pods-LullabAITests.debug.xcconfig */,
+				96FB5A5DC65DDFD355932563 /* Pods-LullabAITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F42CE0272D509DFD001CD828 /* HomeContainer */ = {
+			isa = PBXGroup;
+			children = (
+				F467980D2D3A61850013B80A /* HomeCategoriesVC.swift */,
+				F467980E2D3A61850013B80A /* HomeDefaultVoiceVC.swift */,
+				F467980F2D3A61850013B80A /* HomeNewStoryVC.swift */,
+				F46798112D3A61850013B80A /* HomeTopPoemsVC.swift */,
+				F46798102D3A61850013B80A /* HomeSweetLullabiesVC.swift */,
+			);
+			path = HomeContainer;
+			sourceTree = "<group>";
+		};
+		F42CE0282D509E51001CD828 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				F42CE0292D509E73001CD828 /* PlayerVC.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		F443E15D2D4CA9BC004D3960 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				F443E15E2D4CA9E5004D3960 /* VoiceHandler.swift */,
+				F42CE0252D508FBC001CD828 /* CategoryHandler.swift */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
+		F44B78972D3AC263009A0867 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				F44B78982D3AC28A009A0867 /* HistoryVC.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		F46798132D3A61850013B80A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F46798122D3A61850013B80A /* HomeVC.swift */,
+				F42CE0282D509E51001CD828 /* Player */,
+				F42CE0272D509DFD001CD828 /* HomeContainer */,
+				F450AAA62D4C94F00007B1CE /* CreateVoiceVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F467981A2D3A61850013B80A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F46798162D3A61850013B80A /* IntroVC.swift */,
+				F46798192D3A61850013B80A /* SigninVC.swift */,
+				F46798182D3A61850013B80A /* SigninupVC.swift */,
+				F46798172D3A61850013B80A /* OtpVC.swift */,
+				F46798152D3A61850013B80A /* ForgotPassVC.swift */,
+				F46798142D3A61850013B80A /* CreateNewPassVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F467981C2D3A61850013B80A /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F467981B2D3A61850013B80A /* TabBarVC.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		F46798202D3A61850013B80A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F467981D2D3A61850013B80A /* AppDelegate.swift */,
+				F467981F2D3A61850013B80A /* ViewController.swift */,
+				F4DE4E3D2D40D3D800FA1341 /* Recording */,
+				F467981A2D3A61850013B80A /* Login */,
+				F467981C2D3A61850013B80A /* TabBar */,
+				F46798132D3A61850013B80A /* Home */,
+				F46798872D3A66520013B80A /* Explore */,
+				F44B78972D3AC263009A0867 /* History */,
+				F4AE572A2D3E27080039A104 /* Profile */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F46798212D3A61850013B80A /* External */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		F467982B2D3A61850013B80A /* Font_Inter */ = {
+			isa = PBXGroup;
+			children = (
+				F46798222D3A61850013B80A /* Inter-Black.ttf */,
+				F46798232D3A61850013B80A /* Inter-Bold.ttf */,
+				F46798242D3A61850013B80A /* Inter-ExtraBold.ttf */,
+				F46798252D3A61850013B80A /* Inter-ExtraLight.ttf */,
+				F46798262D3A61850013B80A /* Inter-Light.ttf */,
+				F46798272D3A61850013B80A /* Inter-Medium.ttf */,
+				F46798282D3A61850013B80A /* Inter-Regular.ttf */,
+				F46798292D3A61850013B80A /* Inter-SemiBold.ttf */,
+				F467982A2D3A61850013B80A /* Inter-Thin.ttf */,
+			);
+			path = Font_Inter;
+			sourceTree = "<group>";
+		};
+		F467983C2D3A61850013B80A /* Font_Nunito */ = {
+			isa = PBXGroup;
+			children = (
+				F467982C2D3A61850013B80A /* Nunito-Black.ttf */,
+				F467982D2D3A61850013B80A /* Nunito-BlackItalic.ttf */,
+				F467982E2D3A61850013B80A /* Nunito-Bold.ttf */,
+				F467982F2D3A61850013B80A /* Nunito-BoldItalic.ttf */,
+				F46798302D3A61850013B80A /* Nunito-ExtraBold.ttf */,
+				F46798312D3A61850013B80A /* Nunito-ExtraBoldItalic.ttf */,
+				F46798322D3A61850013B80A /* Nunito-ExtraLight.ttf */,
+				F46798332D3A61850013B80A /* Nunito-ExtraLightItalic.ttf */,
+				F46798342D3A61850013B80A /* Nunito-Italic.ttf */,
+				F46798352D3A61850013B80A /* Nunito-Light.ttf */,
+				F46798362D3A61850013B80A /* Nunito-LightItalic.ttf */,
+				F46798372D3A61850013B80A /* Nunito-Medium.ttf */,
+				F46798382D3A61850013B80A /* Nunito-MediumItalic.ttf */,
+				F46798392D3A61850013B80A /* Nunito-Regular.ttf */,
+				F467983A2D3A61850013B80A /* Nunito-SemiBold.ttf */,
+				F467983B2D3A61850013B80A /* Nunito-SemiBoldItalic.ttf */,
+			);
+			path = Font_Nunito;
+			sourceTree = "<group>";
+		};
+		F467983E2D3A61850013B80A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F467982B2D3A61850013B80A /* Font_Inter */,
+				F467983C2D3A61850013B80A /* Font_Nunito */,
+				F467983D2D3A61850013B80A /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		F46798402D3A61850013B80A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F467988A2D3A71500013B80A /* UIString_Extension.swift */,
+				F4BD38C32D436D1F004B7F01 /* UIViewController_Extensions.swift */,
+				F467983F2D3A61850013B80A /* UIView_Extension.swift */,
+				F46798912D3AB0C50013B80A /* UIColor_Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F46798412D3A61850013B80A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F443E15D2D4CA9BC004D3960 /* Handlers */,
+				F47CC2AA2D474F87006ABD20 /* OtherClasses */,
+				F4BD38C92D436E94004B7F01 /* WebServiceHandler */,
+				F4DE4E422D40DC8D00FA1341 /* WaveView */,
+				F48EE11B2D3EB5900094064F /* Constants */,
+				F46798402D3A61850013B80A /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F46798442D3A61850013B80A /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F46798422D3A61850013B80A /* CustomFoodTabBar.swift */,
+				F46798432D3A61850013B80A /* CustomFoodTabBar.xib */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		F46798452D3A61850013B80A /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				F46798442D3A61850013B80A /* TabBar */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		F467984B2D3A61850013B80A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F46798452D3A61850013B80A /* Xib */,
+				F467984A2D3A61850013B80A /* Main.storyboard */,
+				F46798462D3A61850013B80A /* Home.storyboard */,
+				F46798932D3AB2640013B80A /* Explore.storyboard */,
+				F44B789A2D3AC29A009A0867 /* History.storyboard */,
+				F46798482D3A61850013B80A /* LaunchScreen.storyboard */,
+				F4AE57282D3E26F70039A104 /* Profile.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F467984D2D3A61850013B80A /* LullabAI */ = {
+			isa = PBXGroup;
+			children = (
+				F44E7DF72D8AB74D00BF12D7 /* LullabAI.entitlements */,
+				F467984C2D3A61850013B80A /* Info.plist */,
+				F46798202D3A61850013B80A /* Controllers */,
+				F467984B2D3A61850013B80A /* View */,
+				F46798212D3A61850013B80A /* External */,
+				F467983E2D3A61850013B80A /* Resource */,
+				F46798412D3A61850013B80A /* Utilities */,
+				F4E4C3292D8B32BF00801A52 /* PrivacyInfo.xcprivacy */,
+			);
+			path = LullabAI;
+			sourceTree = "<group>";
+		};
+		F46798802D3A61940013B80A /* LullabAITests */ = {
+			isa = PBXGroup;
+			children = (
+				F467987F2D3A61940013B80A /* LullabAITests.swift */,
+			);
+			path = LullabAITests;
+			sourceTree = "<group>";
+		};
+		F46798842D3A619C0013B80A /* LullabAIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F46798822D3A619C0013B80A /* LullabAIUITests.swift */,
+				F46798832D3A619C0013B80A /* LullabAIUITestsLaunchTests.swift */,
+			);
+			path = LullabAIUITests;
+			sourceTree = "<group>";
+		};
+		F46798872D3A66520013B80A /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				F46798882D3A66670013B80A /* ExploreVC.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		F469778C2D33D3C400404D28 = {
+			isa = PBXGroup;
+			children = (
+				F467984D2D3A61850013B80A /* LullabAI */,
+				F46798802D3A61940013B80A /* LullabAITests */,
+				F46798842D3A619C0013B80A /* LullabAIUITests */,
+				F46977962D33D3C400404D28 /* Products */,
+				3359644E75268837DEF0B4BE /* Pods */,
+				2206259B2C0DE962143166AB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F46977962D33D3C400404D28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F46977952D33D3C400404D28 /* LullabAI.app */,
+				F46977AB2D33D3C600404D28 /* LullabAITests.xctest */,
+				F46977B52D33D3C600404D28 /* LullabAIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F47CC2AA2D474F87006ABD20 /* OtherClasses */ = {
+			isa = PBXGroup;
+			children = (
+				F47CC2AB2D474F96006ABD20 /* CommonFunctions.swift */,
+			);
+			path = OtherClasses;
+			sourceTree = "<group>";
+		};
+		F48EE11B2D3EB5900094064F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				F48EE11C2D3EB5A10094064F /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		F4AE572A2D3E27080039A104 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F4AE572B2D3E27170039A104 /* ProfileVC.swift */,
+				F4DE4E372D40CEDA00FA1341 /* ManageProfileVC.swift */,
+				F4A00FAA2D3EA735000BCAF0 /* SaveCollectionVC.swift */,
+				F48EE11E2D3F82DE0094064F /* YourDownloadsVC.swift */,
+				F4DE4E392D40D0C800FA1341 /* PrivacyPolicyVC.swift */,
+				F4DE4E3B2D40D0F400FA1341 /* TermsConditionsVC.swift */,
+				F4B8E09C2D5DC3AF001860D1 /* YourVoiceVC.swift */,
+				F445AB5C2D5FA0CB006CA76F /* DeleteAccountVC.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		F4BD38C92D436E94004B7F01 /* WebServiceHandler */ = {
+			isa = PBXGroup;
+			children = (
+				F4BD38C82D436E94004B7F01 /* ApiHandler.swift */,
+			);
+			path = WebServiceHandler;
+			sourceTree = "<group>";
+		};
+		F4DE4E3D2D40D3D800FA1341 /* Recording */ = {
+			isa = PBXGroup;
+			children = (
+				F4DE4E3E2D40D3F500FA1341 /* AddVoiceVC.swift */,
+				F4DE4E402D40D40C00FA1341 /* RecordVoiceVC.swift */,
+				F47CC2A82D4748F1006ABD20 /* SaveRecordingVC.swift */,
+				F482F57D2D421FEC004623F6 /* RecordTempVC.swift */,
+			);
+			path = Recording;
+			sourceTree = "<group>";
+		};
+		F4DE4E422D40DC8D00FA1341 /* WaveView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WaveView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F46977942D33D3C400404D28 /* LullabAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46977BE2D33D3C600404D28 /* Build configuration list for PBXNativeTarget "LullabAI" */;
+			buildPhases = (
+				77B83A88113D6B7A5A0294C0 /* [CP] Check Pods Manifest.lock */,
+				F46977912D33D3C400404D28 /* Sources */,
+				F46977922D33D3C400404D28 /* Frameworks */,
+				F46977932D33D3C400404D28 /* Resources */,
+				01E435C9E5DB635E59FE3637 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LullabAI;
+			productName = LullabAI;
+			productReference = F46977952D33D3C400404D28 /* LullabAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F46977AA2D33D3C600404D28 /* LullabAITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46977C32D33D3C600404D28 /* Build configuration list for PBXNativeTarget "LullabAITests" */;
+			buildPhases = (
+				C3CA3AE98B50ECD3CA599363 /* [CP] Check Pods Manifest.lock */,
+				F46977A72D33D3C600404D28 /* Sources */,
+				F46977A82D33D3C600404D28 /* Frameworks */,
+				F46977A92D33D3C600404D28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F46977AD2D33D3C600404D28 /* PBXTargetDependency */,
+			);
+			name = LullabAITests;
+			productName = LullabAITests;
+			productReference = F46977AB2D33D3C600404D28 /* LullabAITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F46977B42D33D3C600404D28 /* LullabAIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46977C62D33D3C600404D28 /* Build configuration list for PBXNativeTarget "LullabAIUITests" */;
+			buildPhases = (
+				F0042221793B74DF12ED636B /* [CP] Check Pods Manifest.lock */,
+				F46977B12D33D3C600404D28 /* Sources */,
+				F46977B22D33D3C600404D28 /* Frameworks */,
+				F46977B32D33D3C600404D28 /* Resources */,
+				F59E511631A16BF3AB566D25 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F46977B72D33D3C600404D28 /* PBXTargetDependency */,
+			);
+			name = LullabAIUITests;
+			productName = LullabAIUITests;
+			productReference = F46977B52D33D3C600404D28 /* LullabAIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F469778D2D33D3C400404D28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					F46977942D33D3C400404D28 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F46977AA2D33D3C600404D28 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F46977942D33D3C400404D28;
+					};
+					F46977B42D33D3C600404D28 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F46977942D33D3C400404D28;
+					};
+				};
+			};
+			buildConfigurationList = F46977902D33D3C400404D28 /* Build configuration list for PBXProject "LullabAI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F469778C2D33D3C400404D28;
+			minimizedProjectReferenceProxies = 1;
+			productRefGroup = F46977962D33D3C400404D28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F46977942D33D3C400404D28 /* LullabAI */,
+				F46977AA2D33D3C600404D28 /* LullabAITests */,
+				F46977B42D33D3C600404D28 /* LullabAIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F46977932D33D3C400404D28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F467984E2D3A61850013B80A /* Inter-Black.ttf in Resources */,
+				F467984F2D3A61850013B80A /* Inter-Bold.ttf in Resources */,
+				F46798502D3A61850013B80A /* Inter-ExtraBold.ttf in Resources */,
+				F46798512D3A61850013B80A /* Inter-ExtraLight.ttf in Resources */,
+				F46798522D3A61850013B80A /* Inter-Light.ttf in Resources */,
+				F46798532D3A61850013B80A /* Inter-Medium.ttf in Resources */,
+				F46798542D3A61850013B80A /* Inter-Regular.ttf in Resources */,
+				F46798552D3A61850013B80A /* Inter-SemiBold.ttf in Resources */,
+				F4E4C32A2D8B32BF00801A52 /* PrivacyInfo.xcprivacy in Resources */,
+				F46798562D3A61850013B80A /* Inter-Thin.ttf in Resources */,
+				F46798572D3A61850013B80A /* Nunito-Black.ttf in Resources */,
+				F46798582D3A61850013B80A /* Nunito-BlackItalic.ttf in Resources */,
+				F46798592D3A61850013B80A /* Nunito-Bold.ttf in Resources */,
+				F4AE57292D3E26F70039A104 /* Profile.storyboard in Resources */,
+				F467985A2D3A61850013B80A /* Nunito-BoldItalic.ttf in Resources */,
+				F467985B2D3A61850013B80A /* Nunito-ExtraBold.ttf in Resources */,
+				F467985C2D3A61850013B80A /* Nunito-ExtraBoldItalic.ttf in Resources */,
+				F467985D2D3A61850013B80A /* Nunito-ExtraLight.ttf in Resources */,
+				F467985E2D3A61850013B80A /* Nunito-ExtraLightItalic.ttf in Resources */,
+				F467985F2D3A61850013B80A /* Nunito-Italic.ttf in Resources */,
+				F46798602D3A61850013B80A /* Nunito-Light.ttf in Resources */,
+				F46798612D3A61850013B80A /* Nunito-LightItalic.ttf in Resources */,
+				F46798622D3A61850013B80A /* Nunito-Medium.ttf in Resources */,
+				F46798632D3A61850013B80A /* Nunito-MediumItalic.ttf in Resources */,
+				F46798642D3A61850013B80A /* Nunito-Regular.ttf in Resources */,
+				F46798652D3A61850013B80A /* Nunito-SemiBold.ttf in Resources */,
+				F46798662D3A61850013B80A /* Nunito-SemiBoldItalic.ttf in Resources */,
+				F46798942D3AB2640013B80A /* Explore.storyboard in Resources */,
+				F46798672D3A61850013B80A /* Assets.xcassets in Resources */,
+				F44B789B2D3AC29A009A0867 /* History.storyboard in Resources */,
+				F46798682D3A61850013B80A /* CustomFoodTabBar.xib in Resources */,
+				F46798692D3A61850013B80A /* Home.storyboard in Resources */,
+				F467986A2D3A61850013B80A /* LaunchScreen.storyboard in Resources */,
+				F467986B2D3A61850013B80A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46977A92D33D3C600404D28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46977B32D33D3C600404D28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01E435C9E5DB635E59FE3637 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LullabAI/Pods-LullabAI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LullabAI/Pods-LullabAI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LullabAI/Pods-LullabAI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77B83A88113D6B7A5A0294C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LullabAI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3CA3AE98B50ECD3CA599363 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LullabAITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0042221793B74DF12ED636B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LullabAI-LullabAIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F59E511631A16BF3AB566D25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LullabAI-LullabAIUITests/Pods-LullabAI-LullabAIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LullabAI-LullabAIUITests/Pods-LullabAI-LullabAIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LullabAI-LullabAIUITests/Pods-LullabAI-LullabAIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F46977912D33D3C400404D28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48EE11D2D3EB5A10094064F /* Constants.swift in Sources */,
+				F4DE4E3F2D40D3F500FA1341 /* AddVoiceVC.swift in Sources */,
+				F47CC2AC2D474F96006ABD20 /* CommonFunctions.swift in Sources */,
+				F48EE11F2D3F82DE0094064F /* YourDownloadsVC.swift in Sources */,
+				F42CE0262D508FC6001CD828 /* CategoryHandler.swift in Sources */,
+				F445AB5D2D5FA0CB006CA76F /* DeleteAccountVC.swift in Sources */,
+				F467986D2D3A61850013B80A /* HomeCategoriesVC.swift in Sources */,
+				F4AE572C2D3E27170039A104 /* ProfileVC.swift in Sources */,
+				F467986E2D3A61850013B80A /* HomeDefaultVoiceVC.swift in Sources */,
+				F467986F2D3A61850013B80A /* HomeNewStoryVC.swift in Sources */,
+				F4DE4E382D40CEDA00FA1341 /* ManageProfileVC.swift in Sources */,
+				F4B8E09D2D5DC3AF001860D1 /* YourVoiceVC.swift in Sources */,
+				F4DE4E3A2D40D0C800FA1341 /* PrivacyPolicyVC.swift in Sources */,
+				F47CC2A92D4748F1006ABD20 /* SaveRecordingVC.swift in Sources */,
+				F46798702D3A61850013B80A /* HomeSweetLullabiesVC.swift in Sources */,
+				F4A00FAB2D3EA735000BCAF0 /* SaveCollectionVC.swift in Sources */,
+				F46798712D3A61850013B80A /* HomeTopPoemsVC.swift in Sources */,
+				F46798722D3A61850013B80A /* HomeVC.swift in Sources */,
+				F467988B2D3A71520013B80A /* UIString_Extension.swift in Sources */,
+				F4DE4E3C2D40D0F400FA1341 /* TermsConditionsVC.swift in Sources */,
+				F42CE02A2D509E73001CD828 /* PlayerVC.swift in Sources */,
+				F46798732D3A61850013B80A /* CreateNewPassVC.swift in Sources */,
+				F46798742D3A61850013B80A /* ForgotPassVC.swift in Sources */,
+				F46798752D3A61850013B80A /* IntroVC.swift in Sources */,
+				F46798762D3A61850013B80A /* OtpVC.swift in Sources */,
+				F450AAA72D4C94F00007B1CE /* CreateVoiceVC.swift in Sources */,
+				F46798922D3AB0C50013B80A /* UIColor_Extensions.swift in Sources */,
+				F46798772D3A61850013B80A /* SigninupVC.swift in Sources */,
+				F46798782D3A61850013B80A /* SigninVC.swift in Sources */,
+				F46798792D3A61850013B80A /* TabBarVC.swift in Sources */,
+				F46798892D3A66670013B80A /* ExploreVC.swift in Sources */,
+				F4BD38C42D436D1F004B7F01 /* UIViewController_Extensions.swift in Sources */,
+				F443E15F2D4CA9E5004D3960 /* VoiceHandler.swift in Sources */,
+				F4DE4E412D40D40C00FA1341 /* RecordVoiceVC.swift in Sources */,
+				F467987A2D3A61850013B80A /* AppDelegate.swift in Sources */,
+				F482F57E2D421FEC004623F6 /* RecordTempVC.swift in Sources */,
+				F4BD38CA2D436E94004B7F01 /* ApiHandler.swift in Sources */,
+				F467987C2D3A61850013B80A /* ViewController.swift in Sources */,
+				F44B78992D3AC28A009A0867 /* HistoryVC.swift in Sources */,
+				F467987D2D3A61850013B80A /* UIView_Extension.swift in Sources */,
+				F467987E2D3A61850013B80A /* CustomFoodTabBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46977A72D33D3C600404D28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46798812D3A61940013B80A /* LullabAITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46977B12D33D3C600404D28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46798852D3A619C0013B80A /* LullabAIUITests.swift in Sources */,
+				F46798862D3A619C0013B80A /* LullabAIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F46977AD2D33D3C600404D28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F46977942D33D3C400404D28 /* LullabAI */;
+			targetProxy = F46977AC2D33D3C600404D28 /* PBXContainerItemProxy */;
+		};
+		F46977B72D33D3C600404D28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F46977942D33D3C400404D28 /* LullabAI */;
+			targetProxy = F46977B62D33D3C600404D28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F46798482D3A61850013B80A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F46798472D3A61850013B80A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F467984A2D3A61850013B80A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F46798492D3A61850013B80A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F46977BF2D33D3C600404D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FD28417584F7EC7E9B705AE /* Pods-LullabAI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LullabAI/LullabAI.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = GHS982Z236;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LullabAI/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone for recording.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lullabAi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F46977C02D33D3C600404D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 825149D08879B2AEC70C5B68 /* Pods-LullabAI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LullabAI/LullabAI.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = GHS982Z236;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LullabAI/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone for recording.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lullabAi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F46977C12D33D3C600404D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F46977C22D33D3C600404D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F46977C42D33D3C600404D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDC2A39DD46D484C6B83095E /* Pods-LullabAITests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = keyur.LullabAITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LullabAI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LullabAI";
+			};
+			name = Debug;
+		};
+		F46977C52D33D3C600404D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96FB5A5DC65DDFD355932563 /* Pods-LullabAITests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = keyur.LullabAITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LullabAI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LullabAI";
+			};
+			name = Release;
+		};
+		F46977C72D33D3C600404D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C464FA46BE528774F84A2D22 /* Pods-LullabAI-LullabAIUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = keyur.LullabAIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LullabAI;
+			};
+			name = Debug;
+		};
+		F46977C82D33D3C600404D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF6093D13D94043B634E9805 /* Pods-LullabAI-LullabAIUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = keyur.LullabAIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LullabAI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F46977902D33D3C400404D28 /* Build configuration list for PBXProject "LullabAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46977C12D33D3C600404D28 /* Debug */,
+				F46977C22D33D3C600404D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F46977BE2D33D3C600404D28 /* Build configuration list for PBXNativeTarget "LullabAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46977BF2D33D3C600404D28 /* Debug */,
+				F46977C02D33D3C600404D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F46977C32D33D3C600404D28 /* Build configuration list for PBXNativeTarget "LullabAITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46977C42D33D3C600404D28 /* Debug */,
+				F46977C52D33D3C600404D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F46977C62D33D3C600404D28 /* Build configuration list for PBXNativeTarget "LullabAIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46977C72D33D3C600404D28 /* Debug */,
+				F46977C82D33D3C600404D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F469778D2D33D3C400404D28 /* Project object */;
+}
